@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 from scipy.interpolate import interp1d
 
 # modify these parameters
-RESOLUTION = 100000  # freq of clock tick in Hz
-BIT_DEPTH = 8  # determines number of thresholds
+RESOLUTION = 48000  # freq of clock tick in Hz
+BIT_DEPTH = 6   # determines number of thresholds
 
 SIG_MIN = -1.
 SIG_MAX = 1.
